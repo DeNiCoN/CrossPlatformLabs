@@ -1,0 +1,9 @@
+[requires]
+boost/1.80.0
+
+[options]
+boost/*:without_python=False
+
+[generators]
+CMakeToolchain
+CMakeDeps
